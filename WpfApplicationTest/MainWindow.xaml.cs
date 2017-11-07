@@ -23,7 +23,7 @@ namespace WpfApplicationTest
         public MainWindow()
         {
             InitializeComponent();
-            var t = Test3();
+            var t = Test5();
             var c = t.Count(i=>i>0);
             var cc = t.Count;
             var ii = t[0];
